@@ -1,4 +1,4 @@
-let CanvasSize = 3000;
+let CanvasSize = 2800;
 let Increment = 0;
 let Size = 1;
 let ShapeRatio = 1;
@@ -18,7 +18,7 @@ function draw(){
     fill(53-random(200), 80, 112)
   } else{
     fill(229-random(200), 107, 111)  
-  }
+ }
     
     //Definieren der Quadrate 1-9
     let xPosition = Size * 0.5;
