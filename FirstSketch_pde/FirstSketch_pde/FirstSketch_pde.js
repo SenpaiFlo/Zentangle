@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw(){
-    translate(CanvasSize * 0.5, CanvasSize * 0.5);
+    translate(CanvasSize * 0.25, CanvasSize * 0.25);
     rotate(frameCount);
     translate(frameCount,0);
     if(frameCount%1<1.5){
