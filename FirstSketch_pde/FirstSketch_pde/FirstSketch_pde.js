@@ -94,5 +94,5 @@ function initialize() {
 }
 
 function randomColor() {
-    fill(random(255), random(255), random(255));
+    fill(random(0, 255), random(0, 255), random(0, 255));
 }
