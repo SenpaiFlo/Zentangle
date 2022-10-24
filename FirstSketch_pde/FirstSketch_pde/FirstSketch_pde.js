@@ -1,6 +1,6 @@
 let CanvasSize = 2800;
 let Increment = 0;
-let Size = 1;
+let Size = 0.1;
 let ShapeRatio = 1;
 
 
@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw(){
-    translate(CanvasSize * 0.25, CanvasSize * 0.25);
+    translate(CanvasSize * 0.5, CanvasSize * 0.5);
     rotate(frameCount);
     translate(frameCount,0);
     if(frameCount%1<1.5){
